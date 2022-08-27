@@ -1,0 +1,21 @@
+{
+    "name": "EE.StateSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:83553b71a7447454d9f7501a8641b936",
+        "GUID:aad74b0923c387e4aaa384f99c72f2eb",
+        "GUID:97836beb4701ebe43998328e971264c2",
+        "GUID:b352106f17b95434abb776c9abaa348d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

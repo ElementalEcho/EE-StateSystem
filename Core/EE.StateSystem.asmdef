@@ -1,0 +1,17 @@
+{
+    "name": "EE.StateMachine",
+    "rootNamespace": "",
+    "references": [
+        "GUID:aad74b0923c387e4aaa384f99c72f2eb",
+        "GUID:b352106f17b95434abb776c9abaa348d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,23 @@
+{
+    "name": "EE.StateSystem.Components",
+    "rootNamespace": "",
+    "references": [
+        "GUID:aad74b0923c387e4aaa384f99c72f2eb",
+        "GUID:023c7a837e2f5c547beff58d75654ef3",
+        "GUID:e7a09062a8269e046bdc0565a721baf4",
+        "GUID:83553b71a7447454d9f7501a8641b936",
+        "GUID:c0d507e6bad4711449960fa179be3141",
+        "GUID:50b51539699d57b479c2d9950a71dea1",
+        "GUID:b352106f17b95434abb776c9abaa348d",
+        "GUID:34c41e7f85c5ccb40bf6f2d5c830f445"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

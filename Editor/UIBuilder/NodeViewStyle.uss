@@ -1,0 +1,123 @@
+#node-border {
+    background-color: rgb(67, 58, 58);
+    border-left-color: rgb(123, 17, 17);
+    border-right-color: rgb(123, 17, 17);
+    border-top-color: rgb(123, 17, 17);
+    border-bottom-color: rgb(123, 17, 17);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#input {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+}
+
+#output {
+    align-items: center;
+}
+
+#selection-border {
+    border-left-color: rgba(14, 27, 130, 0.53);
+    border-right-color: rgba(14, 27, 130, 0.53);
+    border-top-color: rgba(14, 27, 130, 0.53);
+    border-bottom-color: rgba(14, 27, 130, 0.53);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    display: flex;
+}
+
+:hover > #selection-border {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+:selected > #selection-border {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+:hover:selected > #selection-border {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.node {
+    min-width: 150px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#divider {
+    min-height: 1px;
+    background-color: rgb(108, 108, 108);
+}
+
+.actionstate #input {
+    background-color: rgb(79, 123, 22);
+}
+
+.decisionstate #input {
+    background-color: rgb(41, 48, 164);
+}
+
+.selectorstate #input {
+    background-color: rgb(159, 25, 25);
+}
+
+.sequancestate #input {
+    background-color: rgb(135, 131, 40);
+}
+
+#node-state {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-width: 25px;
+    border-right-width: 25px;
+    border-top-width: 25px;
+    border-bottom-width: 25px;
+    flex-grow: 1;
+}
+
+.running #node-state {
+    background-color: rgba(192, 179, 26, 0.39);
+}
+
+.success #node-state {
+    background-color: rgba(68, 140, 26, 0.39);
+}
+
+.failure #node-state {
+    background-color: rgba(135, 22, 22, 0.39);
+}
+
+.notstarted #node-state {
+    background-color: rgba(147, 147, 147, 0.58);
+}
