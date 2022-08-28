@@ -10,7 +10,7 @@ using EE.StateSystem;
 namespace EE {
     public class BehaviorTreeEditor : EditorWindow {
 
-        public static string FilPath = "Assets/_Project/Systems/StateSystem/Editor/UIBuilder/";
+        public static string FilPath = "Packages/EE-StateSystem/Editor/UIBuilder/";
         BehaviorTreeView behaviorTreeView;
         InspectorView inspectorView;
 
